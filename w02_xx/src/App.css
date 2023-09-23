@@ -1,0 +1,54 @@
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 1.5rem;
+  
+}
+
+.book {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+
+.book img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin: 0 auto;
+
+}
+
+.books h1{
+font-size: 0.8rem;
+}
+.books h4{
+  font-size: 0.5rem;
+}
+
+@media screen and (min-width: 00px) {
+  .booklist {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .booklist {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .booklist {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
