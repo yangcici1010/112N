@@ -2,7 +2,7 @@
 
 ### w02-p1: modify css to make books responsive
 
-![](1.png)
+![Alt text](image-2.png)
 ![Alt text](image-1.png)
 
 ### w02-p2: share github repo to the teacher
