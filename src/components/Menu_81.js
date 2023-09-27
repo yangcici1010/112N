@@ -1,12 +1,12 @@
-const Menu_81 = (menu) => {
-    console.log('menu', menu)
+const Menu_81 = ({ menu }) => {
+    console.log('menu', menu);
     return (
         <>
             <div className="section-center">
                 {menu.map((item) => {
                     const { id, title, price, img, desc } = item;
                     return (
-                        <article className={id}>
+                        <article key={id} className="menu-item">
                             <img src={img}
                                 alt={title}
                                 className="photo" />
