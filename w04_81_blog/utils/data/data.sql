@@ -15,7 +15,7 @@ CREATE TABLE
   	card_81 (id, title, descrip, category, img, remote_url)
 VALUES
     (1, 
-	 'Seven Reasons Why Coffee Is Awesome', 
+	 'Seven Reasons Why Coffee Is Awesome123', 
 	 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.', 
 	 'lifestyle', 
 	 '/images/photo-1.jpg', 
