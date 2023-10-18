@@ -2,7 +2,7 @@ const BlogStaticPage_81 = () => {
     return (
         <section className="blogs">
             <div className="section-title">
-                <h2>latest blogs using breakpoints</h2>
+                <h2>Blogs from Node Static</h2>
                 <h3>Yang Pei Cih 209410181</h3>
             </div>
             <div className="blogs-center">
