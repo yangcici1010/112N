@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 // React
 // value, onChange
 
-const T41_81_ControlledInputs = () => {
+const ControlledInputs = () => {
   return <h1>controlled inputs</h1>;
 };
 
