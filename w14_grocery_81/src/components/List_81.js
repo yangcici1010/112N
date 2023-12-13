@@ -18,8 +18,7 @@ function List_81({ items, removeItem }) {
                             <button
                                 type='button'
                                 className='delete-btn'
-                                onClick={() => removeItem(id)}
-                            >
+                                onClick={() => removeItem(id)}>
                                 <FaTrash />
                             </button>
                         </div>
